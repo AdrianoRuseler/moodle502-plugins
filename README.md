@@ -1,14 +1,14 @@
-# moodle501-plugins
-Plugins for Moodle 5.1
+# moodle502-plugins
+Plugins for Moodle 5.2
 
-[![Update Submodules](https://github.com/AdrianoRuseler/moodle501-plugins/actions/workflows/update-submodules.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle501-plugins/actions/workflows/update-submodules.yml)
+[![Update Submodules](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/update-submodules.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/update-submodules.yml)
 
 ## Moodle Update (TODO: public folder)
 ```bash
 export MDLREPO="https://github.com/moodle/moodle.git"
 export MDLBRANCH="MOODLE_501_STABLE"  # GIT Branch for moodle core
 export MDLCORE="mdlcore" # Temp folder for moodle core
-export PLGREPO="https://github.com/AdrianoRuseler/moodle501-plugins.git"
+export PLGREPO="https://github.com/AdrianoRuseler/moodle502-plugins.git"
 export PLGBRANCH="main" # GIT Branch for moodle plugins
 export MDLPLGS="mdlplugins" # Temp folder for moodle plugins
 # Moodle software (For example, everything in server/htdocs/moodle)
@@ -35,7 +35,7 @@ sudo rm -rf /tmp/$MDLPLGS
 sudo rm -rf /tmp/$MDLCORE
 ```
 ## Moodle config.php
-- https://docs.moodle.org/501/en/Configuration_file
+- https://docs.moodle.org/502/en/Configuration_file
 
 ``` php
 // Use the following flag to completely disable the installation of plugins
@@ -56,7 +56,7 @@ $CFG->preventexecpath = true;
 $CFG->routerconfigured = true;
 ```
 
-## Plugins List!  Imported from 500 - (TODO: public folder)!
+## Plugins List!  Imported from 501 - (TODO: public folder)!
 
 ### MOD
 
@@ -389,4 +389,3 @@ git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/
 ```bash
 git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle-block_rbreport.git blocks/rbreport
 ```
-

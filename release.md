@@ -1,6 +1,6 @@
 Here is the one-liner to add to your server's update script:
 ```bash
-curl -s https://api.github.com/repos/AdrianoRuseler/moodle501-plugins/releases/latest | grep "browser_download_url" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O  /tmp/plugins-update.tar.xz
+curl -s https://api.github.com/repos/AdrianoRuseler/moodle502-plugins/releases/latest | grep "browser_download_url" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O  /tmp/plugins-update.tar.xz
 ```
 
 ## Integrated "Update & Deploy" Script
@@ -11,7 +11,7 @@ set -e
 
 # 1. Download the highly compressed archive
 echo "📥 Fetching latest .tar.xz release..."
-curl -s https://api.github.com/repos/AdrianoRuseler/moodle501-plugins/releases/latest | grep "browser_download_url" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O  /tmp/plugins-update.tar.xz
+curl -s https://api.github.com/repos/AdrianoRuseler/moodle502-plugins/releases/latest | grep "browser_download_url" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O  /tmp/plugins-update.tar.xz
 
 # 2. Extract specifically using XZ
 echo "📦 Decompressing plugins..."

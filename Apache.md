@@ -2,10 +2,10 @@
 - https://www.apache.org/
 
 ## Config
-- https://docs.moodle.org/501/en/Apache
+- https://docs.moodle.org/502/en/Apache
 
 ```bash
-# https://docs.moodle.org/501/en/Apache#Routing
+# https://docs.moodle.org/502/en/Apache#Routing
 DocumentRoot /var/www/moodle/public
 <Directory /var/www/moodle/public>
     AllowOverride None
@@ -13,7 +13,7 @@ DocumentRoot /var/www/moodle/public
     FallbackResource /r.php
 </Directory>
 
-# https://docs.moodle.org/501/en/Apache
+# https://docs.moodle.org/502/en/Apache
 # The function slash arguments is required for various features 
 # in Moodle to work correctly, as described in Using slash arguments. 
 AcceptPathInfo On
@@ -44,4 +44,5 @@ RewriteRule "(\/UPGRADING\.md)" - [F]
 RewriteRule "(phpunit\.xml\.dist)" - [F]
 RewriteRule "(\/tests\/behat\/)" - [F]
 RewriteRule "(\/fixtures\/)" - [F]
+RewriteRule "(\/upgrade\.txt|UPGRADING\.md|UPGRADING\-CURRENT\.md)" - [F]
 ```
