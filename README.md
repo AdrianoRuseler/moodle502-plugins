@@ -6,7 +6,7 @@ Plugins for Moodle 5.2
 ## Moodle Update (TODO: public folder)
 ```bash
 export MDLREPO="https://github.com/moodle/moodle.git"
-export MDLBRANCH="MOODLE_501_STABLE"  # GIT Branch for moodle core
+export MDLBRANCH="MOODLE_502_STABLE"  # GIT Branch for moodle core
 export MDLCORE="mdlcore" # Temp folder for moodle core
 export PLGREPO="https://github.com/AdrianoRuseler/moodle502-plugins.git"
 export PLGBRANCH="main" # GIT Branch for moodle plugins
@@ -56,7 +56,7 @@ $CFG->preventexecpath = true;
 $CFG->routerconfigured = true;
 ```
 
-## Plugins List!  Imported from 501 - (TODO: public folder)!
+## Plugins List!  Imported from 501 - TODO:
 
 ### MOD
 
