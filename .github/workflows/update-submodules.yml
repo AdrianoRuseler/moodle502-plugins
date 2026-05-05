@@ -37,7 +37,7 @@ jobs:
 
           echo "Get version file.."
           # Create or update the version file in the root
-          wget https://raw.githubusercontent.com/moodle/moodle/refs/heads/MOODLE_501_STABLE/public/version.php -O version.php
+          wget https://raw.githubusercontent.com/moodle/moodle/refs/heads/MOODLE_502_STABLE/public/version.php -O version.php
 
           echo "Run: git submodule update --remote"
           git submodule update --remote
