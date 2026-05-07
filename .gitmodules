@@ -270,3 +270,7 @@
 	path = moodle/public/enrol/auto
 	url = https://github.com/bynare/moodle-enrol_auto.git
 	branch = main
+[submodule "moodle/public/mod/bigbluebuttonbn/extension/bnx"]
+	path = moodle/public/mod/bigbluebuttonbn/extension/bnx
+	url = https://github.com/blindsidenetworks-ps/moodle-bbbext_bnx.git
+	branch = main
