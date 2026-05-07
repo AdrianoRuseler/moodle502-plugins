@@ -113,7 +113,7 @@
 [submodule "moodle/public/availability/condition/relativedate"]
 	path = moodle/public/availability/condition/relativedate
 	url = https://github.com/ewallah/moodle-availability_relativedate.git
-	branch = MOODLE_500_STABLE
+	branch = main
 [submodule "moodle/public/availability/condition/sectioncompleted"]
 	path = moodle/public/availability/condition/sectioncompleted
 	url = https://github.com/bdecentgmbh/moodle-availability_sectioncompleted.git
