@@ -49,11 +49,11 @@
 [submodule "moodle/public/mod/publication"]
 	path = moodle/public/mod/publication
 	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
-	branch = MOODLE_500_STABLE
+	branch = MOODLE_501_STABLE
 [submodule "moodle/public/mod/customcert"]
 	path = moodle/public/mod/customcert
 	url = https://github.com/markn86/moodle-mod_customcert.git
-	branch = MOODLE_500_STABLE
+	branch = main
 [submodule "moodle/public/mod/scheduler"]
 	path = moodle/public/mod/scheduler
 	url = https://github.com/bostelm/moodle-mod_scheduler.git
@@ -65,7 +65,7 @@
 [submodule "moodle/public/mod/subcourse"]
 	path = moodle/public/mod/subcourse
 	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
-	branch = MOODLE_405_STABLE
+	branch = MOODLE_501_STABLE
 [submodule "moodle/public/mod/jitsi"]
 	path = moodle/public/mod/jitsi
 	url = https://github.com/udima-university/moodle-mod_jitsi.git
