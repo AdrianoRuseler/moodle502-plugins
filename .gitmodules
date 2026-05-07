@@ -266,3 +266,7 @@
 	path = moodle/public/course/format/etask
 	url = https://gitlab.com/drlikm/format_etask.git
 	branch = FORMAT_ETASK_24_STABLE
+[submodule "moodle/public/enrol/auto"]
+	path = moodle/public/enrol/auto
+	url = https://github.com/bynare/moodle-enrol_auto.git
+	branch = main
