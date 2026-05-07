@@ -1,7 +1,7 @@
 [submodule "moodle/public/course/format/softcourse"]
 	path = moodle/public/course/format/softcourse
 	url = https://github.com/DigiDago/moodle-format_softcourse.git
-	branch = MOODLE_501_STABLE
+	branch = MOODLE_502_STABLE
 [submodule "moodle/public/course/format/tiles"]
 	path = moodle/public/course/format/tiles
 	url = https://bitbucket.org/dw8/moodle-format_tiles.git
@@ -262,3 +262,7 @@
 	path = moodle/public/admin/tool/migratehvp2h5p
 	url = https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git
 	branch = main
+[submodule "moodle/public/course/format/etask"]
+	path = moodle/public/course/format/etask
+	url = https://gitlab.com/drlikm/format_etask.git
+	branch = FORMAT_ETASK_24_STABLE
