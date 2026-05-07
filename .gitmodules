@@ -254,3 +254,7 @@
 	path = moodle/public/question/bank/importasversion
 	url = https://github.com/maths/moodle-qbank_importasversion.git
 	branch = MOODLE_502_STABLE
+[submodule "moodle/public/mod/hvp"]
+	path = moodle/public/mod/hvp
+	url = https://github.com/h5p/h5p-moodle-plugin.git
+	branch = stable
