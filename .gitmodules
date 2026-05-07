@@ -53,7 +53,7 @@
 [submodule "moodle/public/mod/customcert"]
 	path = moodle/public/mod/customcert
 	url = https://github.com/markn86/moodle-mod_customcert.git
-	branch = main
+	branch = MOODLE_500_STABLE
 [submodule "moodle/public/mod/scheduler"]
 	path = moodle/public/mod/scheduler
 	url = https://github.com/bostelm/moodle-mod_scheduler.git
