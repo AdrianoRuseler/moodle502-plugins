@@ -115,9 +115,6 @@ git submodule add -b MOODLE_405_STABLE https://github.com/mudrd8mz/moodle-mod_su
 git submodule add -b master https://github.com/ecampbell/moodle-booktool_wordimport.git mod/book/tool/wordimport
 ```
 
--->mod_hvp
-Error in upgrade script...
-
 - https://github.com/h5p/h5p-moodle-plugin
 ```bash
 git submodule add -b stable https://github.com/h5p/h5p-moodle-plugin.git mod/hvp
@@ -125,6 +122,7 @@ cd mod/hvp
 git submodule update --init
 cd ../..
 ```
+
 - https://github.com/udima-university/moodle-mod_jitsi
 ```bash
 git submodule add -b master https://github.com/udima-university/moodle-mod_jitsi.git mod/jitsi
@@ -202,6 +200,12 @@ git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-report
 ```bash
 git submodule add -b main https://github.com/moodleou/moodle-report_customsql.git report/customsql
 ```
+
+- https://github.com/moodleworkplace/moodle-block_rbreport
+```bash
+git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle-block_rbreport.git blocks/rbreport
+```
+
 ### AVAILABILITY
 - https://github.com/ewallah/moodle-availability_relativedate
 ```bash
@@ -253,7 +257,7 @@ git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumunit.gi
 git submodule add -b main https://github.com/moodleou/moodle-editor_ousupsub.git lib/editor/ousupsub
 ```
 
-STACK question type
+#### STACK question type
 - https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate
 ```bash
 git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate.git question/behaviour/dfexplicitvaildate
@@ -290,21 +294,10 @@ git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/
 git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git admin/tool/opcache
 ```
 
-#### TODO
-
 - https://github.com/moodlehq/moodle-tool_migratehvp2h5p
 ```bash
 git submodule add -b main https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git admin/tool/migratehvp2h5p
 ```
-- https://github.com/catalyst/moodle-tool_trigger
-```bash
-git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-tool_trigger.git admin/tool/trigger
-```
-- https://github.com/catalyst/moodle-tool_dynamic_cohorts
-```bash
-git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-tool_dynamic_cohorts.git admin/tool/dynamic_cohorts
-```
-
 
 ### ENROL
 
@@ -324,7 +317,7 @@ git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/
 
 - https://github.com/DigiDago/moodle-format_softcourse
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/DigiDago/moodle-format_softcourse.git course/format/softcourse
+git submodule add -b MOODLE_502_STABLE https://github.com/DigiDago/moodle-format_softcourse.git course/format/softcourse
 ```
 
 - https://bitbucket.org/dw8/moodle-format_tiles
@@ -373,6 +366,11 @@ git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turni
 git submodule add -b MOODLE_501_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
 ```
 
+- https://github.com/AdrianoRuseler/moodle-local_accessibility
+```bash
+git submodule add -b main https://github.com/AdrianoRuseler/moodle-local_accessibility.git local/accessibility
+```
+
 ## Removed from core
 - https://github.com/moodlehq/moodle-mod_chat
 ```bash
@@ -383,9 +381,5 @@ git submodule add -b main https://github.com/moodlehq/moodle-mod_chat.git mod/ch
 git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/survey
 ```
 
-## Take a Look
 
-- https://github.com/moodleworkplace/moodle-block_rbreport
-```bash
-git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle-block_rbreport.git blocks/rbreport
-```
+
