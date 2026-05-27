@@ -53,13 +53,24 @@ jobs:
             - **Full Changelog:** [View release.md](https://github.com/${{ github.repository }}/blob/${{ github.sha }}/release.md)
           draft: false
           prerelease: false
-
-      - name: Delete Older Releases
-        uses: dev-drprasad/delete-older-releases@v0.3.3
-        with:
-          keep_latest: 5
-          delete_tags: true
+          
+      - name: Delete old releases
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-        
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          KEEP=5
+          echo "Fetching releases..."
+          releases=$(gh release list --limit 100 --json tagName,isDraft,isPrerelease,createdAt \
+            --jq 'sort_by(.createdAt) | reverse')
+          echo "$releases" > releases.json
+          total=$(jq length releases.json)
+          echo "Total releases: $total"
+          if [ "$total" -le "$KEEP" ]; then
+            echo "Nothing to delete."
+            exit 0
+          fi
+          jq -r ".[$KEEP:][] | .tagName" releases.json | while read tag; do
+            echo "Deleting release and tag: $tag"
+            gh release delete "$tag" --yes --cleanup-tag
+          done
+                
