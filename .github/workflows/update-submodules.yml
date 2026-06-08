@@ -33,14 +33,11 @@ jobs:
         run: |
           echo "Initialize submodules..."
           # This must be run first on a fresh checkout
-          git submodule update --init
+          git submodule update --init --recursive --depth 1 --remote
 
           echo "Get version file.."
           # Create or update the version file in the root
           wget https://raw.githubusercontent.com/moodle/moodle/refs/heads/MOODLE_502_STABLE/public/version.php -O version.php
-
-          echo "Run: git submodule update --remote"
-          git submodule update --remote
 
           # Check for changes
           if [[ -n $(git status -s) ]]; then
