@@ -225,7 +225,7 @@
 [submodule "moodle/public/admin/tool/opcache"]
 	path = moodle/public/admin/tool/opcache
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
-	branch = MOODLE_501_STABLE
+	branch = upgrade-502
 [submodule "moodle/public/mod/journal"]
 	path = moodle/public/mod/journal
 	url = https://github.com/elearningsoftware/moodle-mod_journal.git
