@@ -262,10 +262,6 @@
 	path = moodle/public/mod/bigbluebuttonbn/extension/bnx
 	url = https://github.com/blindsidenetworks-ps/moodle-bbbext_bnx.git
 	branch = main
-[submodule "moodle/public/mod/customcert"]
-	path = moodle/public/mod/customcert
-	url = https://github.com/markn86/moodle-mod_customcert.git
-	branch = MOODLE_502_STABLE
 [submodule "moodle/public/admin/tool/monitoring"]
 	path = moodle/public/admin/tool/monitoring
 	url = https://github.com/daniil-berg/moodle-tool_monitoring.git
