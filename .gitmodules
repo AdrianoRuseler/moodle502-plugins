@@ -270,3 +270,7 @@
 	path = moodle/public/admin/tool/monitoring
 	url = https://github.com/daniil-berg/moodle-tool_monitoring.git
 	branch = main
+[submodule "moodle/public/admin/tool/opcache"]
+	path = moodle/public/admin/tool/opcache
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
+	branch = upgrade-502
