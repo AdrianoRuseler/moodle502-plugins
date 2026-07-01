@@ -270,3 +270,7 @@
 	path = moodle/public/admin/tool/opcache
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
 	branch = upgrade-502
+[submodule "moodle/public/mod/customcert"]
+	path = moodle/public/mod/customcert
+	url = https://github.com/markn86/moodle-mod_customcert.git
+	branch = MOODLE_502_STABLE
