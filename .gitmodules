@@ -218,10 +218,6 @@
 	path = moodle/public/lib/editor/tiny/plugins/wordimport
 	url = https://codeberg.org/linos/moodle-tiny_wordimport.git
 	branch = main
-[submodule "moodle/public/admin/tool/opcache"]
-	path = moodle/public/admin/tool/opcache
-	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
-	branch = upgrade-502
 [submodule "moodle/public/mod/journal"]
 	path = moodle/public/mod/journal
 	url = https://github.com/elearningsoftware/moodle-mod_journal.git
