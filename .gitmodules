@@ -209,7 +209,7 @@
 [submodule "moodle/public/local/sandbox"]
 	path = moodle/public/local/sandbox
 	url = https://github.com/moodleuulm/moodle-local_sandbox.git
-	branch = MOODLE_501_STABLE
+	branch = MOODLE_502_STABLE
 [submodule "moodle/public/mod/book/tool/wordimport"]
 	path = moodle/public/mod/book/tool/wordimport
 	url = https://github.com/ecampbell/moodle-booktool_wordimport.git
