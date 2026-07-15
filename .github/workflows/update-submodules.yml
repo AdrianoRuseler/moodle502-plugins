@@ -29,23 +29,25 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
 
       - name: 3. Execute Update and Push Script
-        # The commands now run from the root of the checked-out repository.
         run: |
-          echo "Initialize and sync submodules..."
+          echo "Sync and init submodules..."
           git submodule sync --recursive
-          # This must be run first on a fresh checkout
-          git submodule update --init --recursive --depth 1 --remote
+          git submodule update --init --recursive
+
+          echo "Update each submodule to its tracked branch (best-effort)..."
+          git submodule foreach --recursive '
+            b=$(git config -f "$toplevel/.gitmodules" "submodule.$name.branch" || true)
+            [ -z "$b" ] || [ "$b" = "." ] && b=$(git remote show origin | sed -n "s/.*HEAD branch: //p")
+            git fetch origin "$b" && git checkout -B "$b" "origin/$b" || echo "SKIP $name (no branch $b)"
+          '
 
           echo "Get version file.."
-          # Create or update the version file in the root
           wget https://raw.githubusercontent.com/moodle/moodle/refs/heads/MOODLE_502_STABLE/public/version.php -O version.php
 
-          # Check for changes
           if [[ -n $(git status -s) ]]; then
             echo "Changes detected. Committing..."
             git add .
             git commit -m "GitHub Actions submodule update."
-            # The SSH key allows this push
             git push origin HEAD
           else
             echo "No changes detected. Skipping commit."
