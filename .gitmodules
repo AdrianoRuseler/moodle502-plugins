@@ -246,10 +246,6 @@
 	path = moodle/public/admin/tool/migratehvp2h5p
 	url = https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git
 	branch = main
-[submodule "moodle/public/course/format/etask"]
-	path = moodle/public/course/format/etask
-	url = https://gitlab.com/drlikm/format_etask.git
-	branch = FORMAT_ETASK_24_STABLE
 [submodule "moodle/public/enrol/auto"]
 	path = moodle/public/enrol/auto
 	url = https://github.com/bynare/moodle-enrol_auto.git
