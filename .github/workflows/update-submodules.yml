@@ -31,7 +31,8 @@ jobs:
       - name: 3. Execute Update and Push Script
         # The commands now run from the root of the checked-out repository.
         run: |
-          echo "Initialize submodules..."
+          echo "Initialize and sync submodules..."
+          git submodule sync --recursive
           # This must be run first on a fresh checkout
           git submodule update --init --recursive --depth 1 --remote
 
