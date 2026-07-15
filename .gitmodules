@@ -86,10 +86,6 @@
 	path = moodle/public/blocks/sharing_cart
 	url = https://github.com/donhinkelman/moodle-block_sharing_cart.git
 	branch = master
-[submodule "moodle/public/blocks/grade_me"]
-	path = moodle/public/blocks/grade_me
-	url = https://github.com/remotelearner/moodle-block_grade_me.git
-	branch = MOODLE_405_STABLE
 [submodule "moodle/public/report/coursesize"]
 	path = moodle/public/report/coursesize
 	url = https://github.com/catalyst/moodle-report_coursesize.git
