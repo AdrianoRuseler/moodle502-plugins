@@ -181,7 +181,7 @@
 [submodule "moodle/public/admin/tool/redis"]
 	path = moodle/public/admin/tool/redis
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
-	branch = MOODLE_502_STABLE
+	branch = main
 [submodule "moodle/public/mod/chat"]
 	path = moodle/public/mod/chat
 	url = https://github.com/moodlehq/moodle-mod_chat.git
