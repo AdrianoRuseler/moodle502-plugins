@@ -274,3 +274,7 @@
 	path = moodle/public/mod/customcert
 	url = https://github.com/markn86/moodle-mod_customcert.git
 	branch = MOODLE_502_STABLE
+[submodule "moodle/public/question/type/vplquestion"]
+	path = moodle/public/question/type/vplquestion
+	url = https://github.com/AdrianoRuseler/moodle-qtype_vplquestion.git
+	branch = master
