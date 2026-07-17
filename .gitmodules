@@ -262,3 +262,7 @@
 	path = moodle/public/theme/boost_union
 	url = https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git
 	branch = MOODLE_502_STABLE
+[submodule "moodle/public/blocks/sharing_cart"]
+	path = moodle/public/blocks/sharing_cart
+	url = https://github.com/praxisdigital/moodle-block_sharing_cart.git
+	branch = MOODLE_52_STABLE
