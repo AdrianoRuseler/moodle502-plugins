@@ -1,10 +1,10 @@
 # moodle502-plugins
-Plugins for Moodle 5.2
+Plugins for [Moodle 5.2](https://github.com/moodle/moodle/tree/MOODLE_502_STABLE)
 
 [![Update Submodules](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/update-submodules.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/update-submodules.yml)
 [![Create Release](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/release.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/release.yml)
 
-## Moodle Update (TODO: public folder)
+## Moodle Update
 ```bash
 export MDLREPO="https://github.com/moodle/moodle.git"
 export MDLBRANCH="MOODLE_502_STABLE"  # GIT Branch for moodle core
