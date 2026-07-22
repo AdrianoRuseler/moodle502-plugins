@@ -57,7 +57,7 @@ $CFG->preventexecpath = true;
 $CFG->routerconfigured = true;
 ```
 
-## Plugins List!  Imported from 501 - TODO:
+## Plugins List:
 
 ### MOD
 
@@ -91,7 +91,7 @@ git submodule add -b master https://github.com/projectestac/moodle-mod_geogebra.
 ```
 - https://github.com/academic-moodle-cooperation/moodle-mod_publication
 ```bash
-git submodule add -b MOODLE_405_STABLE https://github.com/academic-moodle-cooperation/moodle-mod_publication.git mod/publication
+git submodule add -b main https://github.com/academic-moodle-cooperation/moodle-mod_publication.git mod/publication
 ```
 - https://github.com/markn86/moodle-mod_customcert
 ```bash
@@ -108,7 +108,7 @@ git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle
 
 - https://github.com/mudrd8mz/moodle-mod_subcourse
 ```bash
-git submodule add -b MOODLE_405_STABLE https://github.com/mudrd8mz/moodle-mod_subcourse.git mod/subcourse
+git submodule add -b MOODLE_501_STABLE https://github.com/mudrd8mz/moodle-mod_subcourse.git mod/subcourse
 ```
 
 - https://github.com/ecampbell/moodle-booktool_wordimport
@@ -168,17 +168,12 @@ git submodule add -b master https://github.com/deraadt/moodle-block_completion_p
 
 - https://github.com/catalyst/moodle-block_dedication
 ```bash
-git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-block_dedication.git blocks/dedication
+git submodule add -b MOODLE_500_STABLE https://github.com/catalyst/moodle-block_dedication.git blocks/dedication
 ```
 
 - https://github.com/donhinkelman/moodle-block_sharing_cart
 ```bash
-git submodule add -b master https://github.com/donhinkelman/moodle-block_sharing_cart.git blocks/sharing_cart
-```
-
-- https://github.com/remotelearner/moodle-block_grade_me
-```bash
-git submodule add -b MOODLE_405_STABLE https://github.com/remotelearner/moodle-block_grade_me.git blocks/grade_me
+git submodule add -b MOODLE_52_STABLE https://github.com/donhinkelman/moodle-block_sharing_cart.git blocks/sharing_cart
 ```
 
 ### REPORT
@@ -210,7 +205,7 @@ git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle
 ### AVAILABILITY
 - https://github.com/ewallah/moodle-availability_relativedate
 ```bash
-git submodule add -b MOODLE_500_STABLE https://github.com/ewallah/moodle-availability_relativedate.git availability/condition/relativedate
+git submodule add -b main https://github.com/ewallah/moodle-availability_relativedate.git availability/condition/relativedate
 ```
 
 - https://github.com/bdecentgmbh/moodle-availability_sectioncompleted
@@ -229,8 +224,10 @@ git submodule add -b main https://github.com/moodleou/moodle-qtype_oumultirespon
 ```
 
 - https://gricad-gitlab.univ-grenoble-alpes.fr/moodle-plugins/moodle-qtype_vplquestion
+- https://github.com/AdrianoRuseler/moodle-qtype_vplquestion
+
 ```bash
-git submodule add -b master https://gricad-gitlab.univ-grenoble-alpes.fr/moodle-plugins/moodle-qtype_vplquestion.git question/type/vplquestion
+git submodule add -b master https://github.com/AdrianoRuseler/moodle-qtype_vplquestion.git question/type/vplquestion
 ```
 - https://github.com/moodleou/moodle-qtype_combined
 ```bash
@@ -287,12 +284,12 @@ git submodule add -b master https://github.com/Syxton/moodle-tool_coursearchiver
 ```
 - https://github.com/moodle-an-hochschulen/moodle-tool_redis
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
+git submodule add -b MOODLE_502_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
 ```
 
 - https://github.com/moodle-an-hochschulen/moodle-tool_opcache
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git admin/tool/opcache
+git submodule add -b MOODLE_502_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git admin/tool/opcache
 ```
 
 - https://github.com/moodlehq/moodle-tool_migratehvp2h5p
@@ -300,19 +297,13 @@ git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/
 git submodule add -b main https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git admin/tool/migratehvp2h5p
 ```
 
-### ENROL
-
-#### TO REMOVE:
+### ENROL (To remove)
 
 - https://github.com/bobopinna/moodle-enrol_autoenrol
 ```bash
 git submodule add -b master https://github.com/bobopinna/moodle-enrol_autoenrol.git enrol/autoenrol
 ```
 
-- https://github.com/bynare/moodle-enrol_auto
-```bash
-git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/auto
-```
 
 ### FORMAT
 
@@ -326,10 +317,6 @@ git submodule add -b MOODLE_502_STABLE https://github.com/DigiDago/moodle-format
 git submodule add -b moodle51 https://bitbucket.org/dw8/moodle-format_tiles.git course/format/tiles
 ```
 
-- https://gitlab.com/drlikm/format_etask
-```bash
-git submodule add -b FORMAT_ETASK_24_STABLE https://gitlab.com/drlikm/format_etask.git course/format/etask
-```
 
 ### THEME
 
@@ -339,7 +326,7 @@ git submodule add -b main https://github.com/gjbarnard/moodle-theme_adaptable.gi
 ```
 - https://github.com/moodle-an-hochschulen/moodle-theme_boost_union
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git theme/boost_union
+git submodule add -b MOODLE_502_STABLE https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git theme/boost_union
 ```
 
 ###   FILTER
@@ -347,7 +334,7 @@ git submodule add -b MOODLE_501_STABLE https://github.com/moodle-an-hochschulen/
 ```bash
 git submodule add -b main https://github.com/trampgeek/moodle-filter_ace_inline.git filter/ace_inline
 ```
-### PLAGIARISM
+### PLAGIARISM (To remove)
 
 - https://github.com/turnitin/moodle-plagiarism_turnitin
 ```bash
@@ -364,7 +351,7 @@ git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turni
 
 - https://github.com/moodleuulm/moodle-local_sandbox
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
+git submodule add -b MOODLE_502_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
 ```
 
 - https://github.com/AdrianoRuseler/moodle-local_accessibility
