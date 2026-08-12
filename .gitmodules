@@ -274,3 +274,7 @@
 	path = moodle/public/course/format/softcourse
 	url = https://github.com/DigiDago/moodle-format_softcourse.git
 	branch = MOODLE_502_STABLE
+[submodule "moodle/public/filter/mermaid"]
+	path = moodle/public/filter/mermaid
+	url = https://github.com/SkudarTV/moodle-filter_mermaid.git
+	branch = master
